@@ -7,6 +7,7 @@
 //
 
 #import "PQViewController.h"
+#import "YONetwork.h"
 
 @interface PQViewController ()
 
@@ -22,6 +23,10 @@
     dispatch_barrier_async(dispatch_get_main_queue(), ^{
         
     });
+    
+    [YONetwork add];
+    
+    [YONetwork sum];
 }
 
 - (void)didReceiveMemoryWarning
