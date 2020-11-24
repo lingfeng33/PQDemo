@@ -60,11 +60,11 @@
 		62339286C45B897D216C0B68 /* Pods_PQDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD7D6DD0B4F8029588EA1B3 /* Pods-PQDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-PQDemo_Example/Pods-PQDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72B33EB435C218DF983D50C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7F0B2CF4B9326DE74E06EA51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		72B33EB435C218DF983D50C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7F0B2CF4B9326DE74E06EA51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		83EA58CDE64D82B6EE0282B6 /* Pods-PQDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-PQDemo_Example/Pods-PQDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		975287457FBFE7338F43B5DA /* PQDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PQDemo.podspec; path = ../PQDemo.podspec; sourceTree = "<group>"; };
+		975287457FBFE7338F43B5DA /* PQDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PQDemo.podspec; path = ../PQDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B036289845DEFEC3C312C67D /* Pods_PQDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4C4F6BE88E8C4E940265D9 /* Pods-PQDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-PQDemo_Tests/Pods-PQDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				4C3EABB790C81146EE5A2FFB /* Pods-PQDemo_Tests.debug.xcconfig */,
 				BE4C4F6BE88E8C4E940265D9 /* Pods-PQDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lingfeng33;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6PRKSYP25X;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,10 +306,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PQDemo_Example/Pods-PQDemo_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/PQDemo/PQDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PQDemo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +518,7 @@
 			baseConfigurationReference = 83EA58CDE64D82B6EE0282B6 /* Pods-PQDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PRKSYP25X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PQDemo/PQDemo-Prefix.pch";
 				INFOPLIST_FILE = "PQDemo/PQDemo-Info.plist";
@@ -529,6 +535,7 @@
 			baseConfigurationReference = 6CD7D6DD0B4F8029588EA1B3 /* Pods-PQDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PRKSYP25X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PQDemo/PQDemo-Prefix.pch";
 				INFOPLIST_FILE = "PQDemo/PQDemo-Info.plist";

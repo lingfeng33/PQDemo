@@ -1,0 +1,32 @@
+{
+  "name": "PQDemo",
+  "version": "0.1.0",
+  "summary": "创建一个开源Demo",
+  "description": "开源库Demo，开源库创建步骤",
+  "homepage": "https://github.com/lingfeng33/PQDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lingfeng33": "237946843"
+  },
+  "source": {
+    "git": "https://github.com/lingfeng33/PQDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PQDemo/Classes/**/*",
+  "resource_bundles": {
+    "PQDemo": [
+      "PQDemo/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

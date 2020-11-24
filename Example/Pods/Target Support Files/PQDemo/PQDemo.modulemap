@@ -1,0 +1,6 @@
+framework module PQDemo {
+  umbrella header "PQDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
