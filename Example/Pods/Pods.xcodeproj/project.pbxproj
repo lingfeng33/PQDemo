@@ -72,13 +72,13 @@
 		CF1B9D3264F8479AFDBE8284CF7FFEEE /* Pods-PQDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C410AFDD7E06F8B5BD50A6D29383C660 /* Pods-PQDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 044D3ACAD09FD4EC8413C2EFA57D3B72 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D17A1BA9A21C3BA45747984E57DCC238 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F7697495520440E9C5D761704011EB96 /* AFURLRequestSerialization.m */; };
-		DD5073CB237FB23676B1DCB05B9D645D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B25341C9A2862E9CD1E23C0E25E3B1 /* ReplaceMe.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7BA1C71445530C217A0A66B00DCFA9 /* UIKit.framework */; };
 		E5076821FB869B94C397BEBE2C8FB4C1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A07C14FE700E06EA6C4CF8704856849A /* AFURLResponseSerialization.m */; };
 		E6F618027B30C196105E4C6FEBB1F2D4 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB639860D0B85269B9A8A26CD3ED674 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 771E22095C5DBF7678FB976AD97AD822 /* FBSnapshotTestCasePlatform.m */; };
-		E8B003AC256CF08B0049C2B5 /* YONetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B003A2256CF06D0049C2B5 /* YONetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8B003BF256CF0CB0049C2B5 /* YONetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B003A3256CF06D0049C2B5 /* YONetwork.m */; };
+		E8B0046F256D04FB0049C2B5 /* YONetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B0046C256D04FB0049C2B5 /* YONetwork.h */; };
+		E8B00470256D04FB0049C2B5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E8B0046D256D04FB0049C2B5 /* .gitkeep */; };
+		E8B00471256D04FB0049C2B5 /* YONetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B0046E256D04FB0049C2B5 /* YONetwork.m */; };
 		EB160D8FB3AB6231C52F8E610E4F87E4 /* PQDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8036FEFBA596C36C8808D11CE5916 /* PQDemo-dummy.m */; };
 		EB5DCEB6E63DAC511127261FD96D8DF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574D2387CAAFCBE87B8CF9B2AAC07480 /* Foundation.framework */; };
 		F16FFC41A705009CF5D96128920527C5 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5696CCDF8494DD1BFF77886DAE945B85 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -170,7 +170,6 @@
 		40029FFDABEFC7A262D143EA33036E02 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		419EC3DCEDDE959C9CE46D58263B394E /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		438CAA7CAC023B42663B6DFD853BC688 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		48B25341C9A2862E9CD1E23C0E25E3B1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PQDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4B1C94A34F343B1B6D995F0D42B9E92A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		4EF8DD02B20338DDC5F33DC77F665964 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4EF9E907767E02B2A22FF5C5E7A058B4 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
@@ -238,8 +237,9 @@
 		DEBBDE5CC1876AC9F5F652576D3538EE /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
 		DF73CAE46CA9A1BE640D03693D1B49CD /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		E58BCC34A2D2CB16EED44CE56A193F07 /* Pods_PQDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8B003A2256CF06D0049C2B5 /* YONetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YONetwork.h; sourceTree = "<group>"; };
-		E8B003A3256CF06D0049C2B5 /* YONetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YONetwork.m; sourceTree = "<group>"; };
+		E8B0046C256D04FB0049C2B5 /* YONetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YONetwork.h; sourceTree = "<group>"; };
+		E8B0046D256D04FB0049C2B5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		E8B0046E256D04FB0049C2B5 /* YONetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YONetwork.m; sourceTree = "<group>"; };
 		E9AD5889B3BD11AB50B5F4E214BCE4B9 /* Pods-PQDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E9B25246CE65A494A4E59418C935E2C1 /* PQDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PQDemo.debug.xcconfig; sourceTree = "<group>"; };
 		F4B63CBB83672A544179FACA6B3DEA54 /* Pods-PQDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -396,7 +396,7 @@
 		4D8ABBDCB9C69DD510D79BC34D6B1403 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E8B003A1256CF0420049C2B5 /* Class */,
+				E8B0046B256D04FB0049C2B5 /* Classes */,
 				8573578BB96BADC6EF4F4115081DF3C5 /* LICENSE */,
 				24C40A50FA92884789E43CCD9D4B267A /* PQDemo.podspec */,
 				73452F6C500C2148959B210AA273FE9A /* README.md */,
@@ -483,7 +483,6 @@
 		AEA55C3D53154310FEC12A2C8A4ED43E /* PQDemo */ = {
 			isa = PBXGroup;
 			children = (
-				48B25341C9A2862E9CD1E23C0E25E3B1 /* ReplaceMe.m */,
 				4D8ABBDCB9C69DD510D79BC34D6B1403 /* Pod */,
 				02B24771B906601041B9DF5C4CA41DA3 /* Support Files */,
 			);
@@ -592,13 +591,15 @@
 			name = NSURLConnection;
 			sourceTree = "<group>";
 		};
-		E8B003A1256CF0420049C2B5 /* Class */ = {
+		E8B0046B256D04FB0049C2B5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E8B003A2256CF06D0049C2B5 /* YONetwork.h */,
-				E8B003A3256CF06D0049C2B5 /* YONetwork.m */,
+				E8B0046C256D04FB0049C2B5 /* YONetwork.h */,
+				E8B0046E256D04FB0049C2B5 /* YONetwork.m */,
+				E8B0046D256D04FB0049C2B5 /* .gitkeep */,
 			);
-			name = Class;
+			name = Classes;
+			path = PQDemo/Classes;
 			sourceTree = "<group>";
 		};
 		EAE48515346887365527D971646086BB /* Frameworks */ = {
@@ -676,6 +677,7 @@
 				474A235386FB4DDE17FD4458E3500C2E /* UIImageView+AFNetworking.h in Headers */,
 				463053F2AB94BA79AF7166C98B3CA99C /* UIKit+AFNetworking.h in Headers */,
 				498C04FC2BC558E77CF99D28D7FFB890 /* UIProgressView+AFNetworking.h in Headers */,
+				E8B0046F256D04FB0049C2B5 /* YONetwork.h in Headers */,
 				CB8A2D07FEEF46C9C7BBBCC654E0311B /* UIRefreshControl+AFNetworking.h in Headers */,
 				98A9E96FE575A5B3F68B2341B43D46BA /* UIWebView+AFNetworking.h in Headers */,
 			);
@@ -686,7 +688,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6008EBBFB0DED488F7038359096CC4AC /* PQDemo-umbrella.h in Headers */,
-				E8B003AC256CF08B0049C2B5 /* YONetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,6 +873,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B00470256D04FB0049C2B5 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,6 +908,7 @@
 			files = (
 				9FF567078328936E7B840B000CF04FF2 /* AFHTTPRequestOperation.m in Sources */,
 				3E0EFC074BB914747E387E494AD1DBEA /* AFHTTPRequestOperationManager.m in Sources */,
+				E8B00471256D04FB0049C2B5 /* YONetwork.m in Sources */,
 				066EC10DA7FCA1AAC5AD4A09A6348E67 /* AFHTTPSessionManager.m in Sources */,
 				72E282143E5FEA05BC8879D00DBA8CB7 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				2FCE27C9D90420AB553B53EDA506B986 /* AFNetworking-dummy.m in Sources */,
@@ -954,8 +957,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB160D8FB3AB6231C52F8E610E4F87E4 /* PQDemo-dummy.m in Sources */,
-				E8B003BF256CF0CB0049C2B5 /* YONetwork.m in Sources */,
-				DD5073CB237FB23676B1DCB05B9D645D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
