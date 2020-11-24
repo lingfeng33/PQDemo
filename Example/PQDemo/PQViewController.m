@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    dispatch_barrier_async(dispatch_get_main_queue(), ^{
+        
+    });
 }
 
 - (void)didReceiveMemoryWarning
