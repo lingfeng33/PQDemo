@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'PQDemo/Classes/**/*'
   
-   s.resource_bundles = {
-     'PQDemo' => ['PQDemo/Assets/*.png']
-   }
+#  s.resource_bundles = {
+#     'PQDemo' => ['PQDemo/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
